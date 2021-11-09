@@ -1,7 +1,7 @@
 package com.example.kotlinconceptos.conceptosBasicos
 
 /*
-        Data Class
+        DATA CLASS
 
     • Útil para mantener datos y nos evita boilerplate.
     • El constructor principal debe tener al menos un parámetro y deben marcarse como val o var.

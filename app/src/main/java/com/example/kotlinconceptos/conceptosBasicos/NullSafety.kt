@@ -4,17 +4,17 @@ package com.example.kotlinconceptos.conceptosBasicos
         NULL SAFETY (Seguridad nula)
 
     • En kotlin los objetos por defecto no aceptan valores nulos, para poder asignar
-    un valor nulo tendremos que indicar que ese objeto realmente pueda ser nulo.
+      un valor nulo tendremos que indicar que ese objeto realmente pueda ser nulo.
     • Operador Safe Call (?): En los sistemas de tipos, para poder hacer una llamada segura
-    en valores nulos colocar el siguiente operador llamado Safe Call (?).
+      en valores nulos colocar el siguiente operador llamado Safe Call (?).
     • Operador Elvis (?:): Sirve para hacer una comprobación, si una condición no coincide la
-    otra se ejecutará.
+      otra se ejecutará.
     • Operador Double Bang (!!): Con este operador se evita la necesidad de chequear nulos, si
-    está completamente seguro de que el valor de la variable nunca será nula.
+      está completamente seguro de que el valor de la variable nunca será nula.
     • let: Para realizar una determinada operación solo para valores no nulos, puede utilizar el
-    operador de llamada segura junto con let.
+      operador de llamada segura junto con let.
     • Existen funciones que ayudan a comprobar si hay valores nulos como:
-    filterNotNull(), isNullOrBlank(), isNullOrEmpty(), maxOrNull(), randomOrNull() y muchas más.
+      filterNotNull(), isNullOrBlank(), isNullOrEmpty(), maxOrNull(), randomOrNull() y muchas más.
  */
 
 fun main() {
